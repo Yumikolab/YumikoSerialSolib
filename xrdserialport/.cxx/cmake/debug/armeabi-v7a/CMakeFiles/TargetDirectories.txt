@@ -1,0 +1,3 @@
+D:/YumikoProjects/YumikoSerialSolib/xrdserialport/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/xrd-seriport.dir
+D:/YumikoProjects/YumikoSerialSolib/xrdserialport/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/edit_cache.dir
+D:/YumikoProjects/YumikoSerialSolib/xrdserialport/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/rebuild_cache.dir

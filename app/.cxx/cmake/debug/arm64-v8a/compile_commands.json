@@ -1,0 +1,13 @@
+[
+{
+  "directory": "E:/NDK/YumikoSerialSolib/app/.cxx/cmake/debug/arm64-v8a",
+  "command": "D:\\tools\\sdk-tools-windows\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android21 --gcc-toolchain=D:/tools/sdk-tools-windows/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/tools/sdk-tools-windows/ndk-bundle/sysroot  -Dxrd_seriport_EXPORTS -isystem D:/tools/sdk-tools-windows/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem D:/tools/sdk-tools-windows/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem D:/tools/sdk-tools-windows/ndk-bundle/sysroot/usr/include/aarch64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\xrd-seriport.dir\\native-lib.cpp.o -c E:\\NDK\\YumikoSerialSolib\\app\\src\\main\\cpp\\native-lib.cpp",
+  "file": "E:\\NDK\\YumikoSerialSolib\\app\\src\\main\\cpp\\native-lib.cpp"
+},
+
+{
+  "directory": "E:/NDK/YumikoSerialSolib/app/.cxx/cmake/debug/arm64-v8a",
+  "command": "D:\\tools\\sdk-tools-windows\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=aarch64-none-linux-android21 --gcc-toolchain=D:/tools/sdk-tools-windows/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/tools/sdk-tools-windows/ndk-bundle/sysroot -Dxrd_seriport_EXPORTS  -isystem D:/tools/sdk-tools-windows/ndk-bundle/sysroot/usr/include/aarch64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\xrd-seriport.dir\\SerialPort.c.o   -c E:\\NDK\\YumikoSerialSolib\\app\\src\\main\\cpp\\SerialPort.c",
+  "file": "E:\\NDK\\YumikoSerialSolib\\app\\src\\main\\cpp\\SerialPort.c"
+}
+]

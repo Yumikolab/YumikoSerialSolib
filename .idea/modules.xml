@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/YumikoSerialSolib.iml" filepath="$PROJECT_DIR$/YumikoSerialSolib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xrdserialport/xrdserialport.iml" filepath="$PROJECT_DIR$/xrdserialport/xrdserialport.iml" />
+    </modules>
+  </component>
+</project>

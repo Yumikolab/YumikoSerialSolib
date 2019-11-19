@@ -1,0 +1,51 @@
+{
+  "stringTable": {
+    "0": "D:/YumikoProjects/YumikoSerialSolib/xrdserialport/.cxx/cmake/release/armeabi-v7a",
+    "1": "--target=armv7-none-linux-androideabi21 --gcc-toolchain=D:/tools/sdk-tools-windows/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/tools/sdk-tools-windows/ndk-bundle/sysroot -Dxrd_seriport_EXPORTS -isystem D:/tools/sdk-tools-windows/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem D:/tools/sdk-tools-windows/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include -isystem D:/tools/sdk-tools-windows/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -Oz -DNDEBUG -fPIC",
+    "2": "--target=armv7-none-linux-androideabi21 --gcc-toolchain=D:/tools/sdk-tools-windows/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/tools/sdk-tools-windows/ndk-bundle/sysroot -Dxrd_seriport_EXPORTS -isystem D:/tools/sdk-tools-windows/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -Oz -DNDEBUG -fPIC"
+  },
+  "buildFiles": [
+    "D:\\tools\\sdk-tools-windows\\ndk-bundle\\build\\cmake\\android.toolchain.cmake",
+    "D:\\YumikoProjects\\YumikoSerialSolib\\xrdserialport\\src\\main\\cpp\\CMakeLists.txt",
+    "D:\\tools\\sdk-tools-windows\\ndk-bundle\\build\\cmake\\platforms.cmake"
+  ],
+  "cleanCommands": [
+    "D:\\tools\\sdk-tools-windows\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\YumikoProjects\\YumikoSerialSolib\\xrdserialport\\.cxx\\cmake\\release\\armeabi-v7a\" clean"
+  ],
+  "buildTargetsCommand": "D:\\tools\\sdk-tools-windows\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\YumikoProjects\\YumikoSerialSolib\\xrdserialport\\.cxx\\cmake\\release\\armeabi-v7a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "xrd-seriport-Release-armeabi-v7a": {
+      "buildCommand": "D:\\tools\\sdk-tools-windows\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\YumikoProjects\\YumikoSerialSolib\\xrdserialport\\.cxx\\cmake\\release\\armeabi-v7a\" xrd-seriport",
+      "buildType": "release",
+      "toolchain": "2995078540",
+      "abi": "armeabi-v7a",
+      "artifactName": "xrd-seriport",
+      "files": [
+        {
+          "src": "D:\\YumikoProjects\\YumikoSerialSolib\\xrdserialport\\src\\main\\cpp\\native-lib.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\YumikoProjects\\YumikoSerialSolib\\xrdserialport\\src\\main\\cpp\\SerialPort.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "D:\\YumikoProjects\\YumikoSerialSolib\\xrdserialport\\build\\intermediates\\cmake\\release\\obj\\armeabi-v7a\\libxrd-seriport.so"
+    }
+  },
+  "toolchains": {
+    "2995078540": {
+      "cCompilerExecutable": "D:\\tools\\sdk-tools-windows\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
+      "cppCompilerExecutable": "D:\\tools\\sdk-tools-windows\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

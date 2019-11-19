@@ -1,0 +1,78 @@
+ninja: Entering directory `E:\NDK\YumikoSerialSolib\app\.cxx\cmake\release\armeabi-v7a'
+[1/3] Building C object CMakeFiles/xrd-seriport.dir/SerialPort.c.o
+[2/3] Building CXX object CMakeFiles/xrd-seriport.dir/native-lib.cpp.o
+In file included from E:/NDK/YumikoSerialSolib/app/src/main/cpp/native-lib.cpp:3:
+E:/NDK/YumikoSerialSolib/app/src/main/cpp/gpioI.cpp:47:30: warning: data argument not used by format string [-Wformat-extra-args]
+        LOGE("pengyuanlong", "getSmokeDet fail ");
+             ~~~~~~~~~~~~~~  ^
+E:/NDK/YumikoSerialSolib/app/src/main/cpp/gpioI.cpp:11:65: note: expanded from macro 'LOGE'
+#define  LOGE(...)  __android_log_print(ANDROID_LOG_ERROR,"JNI",__VA_ARGS__);
+                                                                ^~~~~~~~~~~
+E:/NDK/YumikoSerialSolib/app/src/main/cpp/gpioI.cpp:57:30: warning: data argument not used by format string [-Wformat-extra-args]
+        LOGE("pengyuanlong", "getWaterDet fail ");
+             ~~~~~~~~~~~~~~  ^
+E:/NDK/YumikoSerialSolib/app/src/main/cpp/gpioI.cpp:11:65: note: expanded from macro 'LOGE'
+#define  LOGE(...)  __android_log_print(ANDROID_LOG_ERROR,"JNI",__VA_ARGS__);
+                                                                ^~~~~~~~~~~
+E:/NDK/YumikoSerialSolib/app/src/main/cpp/gpioI.cpp:89:30: warning: data argument not used by format string [-Wformat-extra-args]
+        LOGE("pengyuanlong", "getSmokeDet fail ");
+             ~~~~~~~~~~~~~~  ^
+E:/NDK/YumikoSerialSolib/app/src/main/cpp/gpioI.cpp:11:65: note: expanded from macro 'LOGE'
+#define  LOGE(...)  __android_log_print(ANDROID_LOG_ERROR,"JNI",__VA_ARGS__);
+                                                                ^~~~~~~~~~~
+E:/NDK/YumikoSerialSolib/app/src/main/cpp/gpioI.cpp:98:30: warning: data argument not used by format string [-Wformat-extra-args]
+        LOGE("pengyuanlong", "getSmokeDet fail ");
+             ~~~~~~~~~~~~~~  ^
+E:/NDK/YumikoSerialSolib/app/src/main/cpp/gpioI.cpp:11:65: note: expanded from macro 'LOGE'
+#define  LOGE(...)  __android_log_print(ANDROID_LOG_ERROR,"JNI",__VA_ARGS__);
+                                                                ^~~~~~~~~~~
+E:/NDK/YumikoSerialSolib/app/src/main/cpp/gpioI.cpp:107:30: warning: data argument not used by format string [-Wformat-extra-args]
+        LOGE("pengyuanlong", "getFrontDoorStatus fail ");
+             ~~~~~~~~~~~~~~  ^
+E:/NDK/YumikoSerialSolib/app/src/main/cpp/gpioI.cpp:11:65: note: expanded from macro 'LOGE'
+#define  LOGE(...)  __android_log_print(ANDROID_LOG_ERROR,"JNI",__VA_ARGS__);
+                                                                ^~~~~~~~~~~
+E:/NDK/YumikoSerialSolib/app/src/main/cpp/gpioI.cpp:119:30: warning: data argument not used by format string [-Wformat-extra-args]
+        LOGE("pengyuanlong", "getBehindDoorStatus fail ");
+             ~~~~~~~~~~~~~~  ^
+E:/NDK/YumikoSerialSolib/app/src/main/cpp/gpioI.cpp:11:65: note: expanded from macro 'LOGE'
+#define  LOGE(...)  __android_log_print(ANDROID_LOG_ERROR,"JNI",__VA_ARGS__);
+                                                                ^~~~~~~~~~~
+E:/NDK/YumikoSerialSolib/app/src/main/cpp/gpioI.cpp:131:30: warning: data argument not used by format string [-Wformat-extra-args]
+        LOGE("pengyuanlong", "openFrontDoor fail ");
+             ~~~~~~~~~~~~~~  ^
+E:/NDK/YumikoSerialSolib/app/src/main/cpp/gpioI.cpp:11:65: note: expanded from macro 'LOGE'
+#define  LOGE(...)  __android_log_print(ANDROID_LOG_ERROR,"JNI",__VA_ARGS__);
+                                                                ^~~~~~~~~~~
+E:/NDK/YumikoSerialSolib/app/src/main/cpp/gpioI.cpp:143:30: warning: data argument not used by format string [-Wformat-extra-args]
+        LOGE("pengyuanlong", "closeFrontDoor fail ");
+             ~~~~~~~~~~~~~~  ^
+E:/NDK/YumikoSerialSolib/app/src/main/cpp/gpioI.cpp:11:65: note: expanded from macro 'LOGE'
+#define  LOGE(...)  __android_log_print(ANDROID_LOG_ERROR,"JNI",__VA_ARGS__);
+                                                                ^~~~~~~~~~~
+E:/NDK/YumikoSerialSolib/app/src/main/cpp/gpioI.cpp:155:30: warning: data argument not used by format string [-Wformat-extra-args]
+        LOGE("pengyuanlong", "openBehindDoor fail ");
+             ~~~~~~~~~~~~~~  ^
+E:/NDK/YumikoSerialSolib/app/src/main/cpp/gpioI.cpp:11:65: note: expanded from macro 'LOGE'
+#define  LOGE(...)  __android_log_print(ANDROID_LOG_ERROR,"JNI",__VA_ARGS__);
+                                                                ^~~~~~~~~~~
+E:/NDK/YumikoSerialSolib/app/src/main/cpp/gpioI.cpp:166:30: warning: data argument not used by format string [-Wformat-extra-args]
+        LOGE("pengyuanlong", "closeBehindDoor fail ");
+             ~~~~~~~~~~~~~~  ^
+E:/NDK/YumikoSerialSolib/app/src/main/cpp/gpioI.cpp:11:65: note: expanded from macro 'LOGE'
+#define  LOGE(...)  __android_log_print(ANDROID_LOG_ERROR,"JNI",__VA_ARGS__);
+                                                                ^~~~~~~~~~~
+E:/NDK/YumikoSerialSolib/app/src/main/cpp/gpioI.cpp:177:30: warning: data argument not used by format string [-Wformat-extra-args]
+        LOGE("pengyuanlong", "closeFrontDoor fail ");
+             ~~~~~~~~~~~~~~  ^
+E:/NDK/YumikoSerialSolib/app/src/main/cpp/gpioI.cpp:11:65: note: expanded from macro 'LOGE'
+#define  LOGE(...)  __android_log_print(ANDROID_LOG_ERROR,"JNI",__VA_ARGS__);
+                                                                ^~~~~~~~~~~
+E:/NDK/YumikoSerialSolib/app/src/main/cpp/gpioI.cpp:191:30: warning: data argument not used by format string [-Wformat-extra-args]
+        LOGE("pengyuanlong", "closeFrontDoor fail ");
+             ~~~~~~~~~~~~~~  ^
+E:/NDK/YumikoSerialSolib/app/src/main/cpp/gpioI.cpp:11:65: note: expanded from macro 'LOGE'
+#define  LOGE(...)  __android_log_print(ANDROID_LOG_ERROR,"JNI",__VA_ARGS__);
+                                                                ^~~~~~~~~~~
+12 warnings generated.
+[3/3] Linking CXX shared library E:\NDK\YumikoSerialSolib\app\build\intermediates\cmake\release\obj\armeabi-v7a\libxrd-seriport.so

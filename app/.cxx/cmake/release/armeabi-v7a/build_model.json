@@ -1,0 +1,69 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "E:\\NDK\\YumikoSerialSolib",
+      "sdkFolder": "D:\\tools\\sdk-tools-windows",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "E:\\NDK\\YumikoSerialSolib\\app\\build\\intermediates",
+      "gradleModulePathName": ":app",
+      "moduleRootFolder": "E:\\NDK\\YumikoSerialSolib\\app",
+      "makeFile": "E:\\NDK\\YumikoSerialSolib\\app\\src\\main\\cpp\\CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "compilerSettingsCacheFolder": "E:\\NDK\\YumikoSerialSolib\\.cxx",
+      "cxxFolder": "E:\\NDK\\YumikoSerialSolib\\app\\.cxx",
+      "ndkFolder": "D:\\tools\\sdk-tools-windows\\ndk-bundle",
+      "ndkVersion": "18.1.5063045",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [],
+    "cFlagList": [],
+    "cppFlagsList": [
+      ""
+    ],
+    "variantName": "release",
+    "soFolder": "E:\\NDK\\YumikoSerialSolib\\app\\build\\intermediates\\cmake\\release\\lib",
+    "objFolder": "E:\\NDK\\YumikoSerialSolib\\app\\build\\intermediates\\cmake\\release\\obj",
+    "jsonFolder": "E:\\NDK\\YumikoSerialSolib\\app\\.cxx\\cmake\\release",
+    "gradleBuildOutputFolder": "E:\\NDK\\YumikoSerialSolib\\app\\.cxx\\cxx\\release",
+    "isDebuggableEnabled": false,
+    "validAbiList": [
+      "ARMEABI_V7A"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "ARMEABI_V7A",
+  "abiPlatformVersion": 21,
+  "cxxBuildFolder": "E:\\NDK\\YumikoSerialSolib\\app\\.cxx\\cmake\\release\\armeabi-v7a",
+  "jsonFile": "E:\\NDK\\YumikoSerialSolib\\app\\.cxx\\cmake\\release\\armeabi-v7a\\android_gradle_build.json",
+  "gradleBuildOutputFolder": "E:\\NDK\\YumikoSerialSolib\\app\\.cxx\\cxx\\release\\armeabi-v7a",
+  "objFolder": "E:\\NDK\\YumikoSerialSolib\\app\\build\\intermediates\\cmake\\release\\obj\\armeabi-v7a",
+  "buildCommandFile": "E:\\NDK\\YumikoSerialSolib\\app\\.cxx\\cmake\\release\\armeabi-v7a\\build_command.txt",
+  "buildOutputFile": "E:\\NDK\\YumikoSerialSolib\\app\\.cxx\\cmake\\release\\armeabi-v7a\\build_output.txt",
+  "modelOutputFile": "E:\\NDK\\YumikoSerialSolib\\app\\.cxx\\cmake\\release\\armeabi-v7a\\build_model.json",
+  "cmake": {
+    "cmakeListsWrapperFile": "E:\\NDK\\YumikoSerialSolib\\app\\.cxx\\cxx\\release\\armeabi-v7a\\CMakeLists.txt",
+    "toolchainWrapperFile": "E:\\NDK\\YumikoSerialSolib\\app\\.cxx\\cxx\\release\\armeabi-v7a\\android_gradle_build.toolchain.cmake",
+    "buildGenerationStateFile": "E:\\NDK\\YumikoSerialSolib\\app\\.cxx\\cxx\\release\\armeabi-v7a\\build_generation_state.json",
+    "cacheKeyFile": "E:\\NDK\\YumikoSerialSolib\\app\\.cxx\\cxx\\release\\armeabi-v7a\\compiler_cache_key.json",
+    "compilerCacheUseFile": "E:\\NDK\\YumikoSerialSolib\\app\\.cxx\\cxx\\release\\armeabi-v7a\\compiler_cache_use.json",
+    "compilerCacheWriteFile": "E:\\NDK\\YumikoSerialSolib\\app\\.cxx\\cxx\\release\\armeabi-v7a\\compiler_cache_write.json",
+    "toolchainSettingsFromCacheFile": "E:\\NDK\\YumikoSerialSolib\\app\\.cxx\\cxx\\release\\armeabi-v7a\\compiler_settings_cache.cmake",
+    "cmakeWrappingBaseFolder": "."
+  },
+  "jsonGenerationLoggingRecordFile": "E:\\NDK\\YumikoSerialSolib\\app\\.cxx\\cmake\\release\\armeabi-v7a\\json_generation_record.json",
+  "compileCommandsJsonFile": "E:\\NDK\\YumikoSerialSolib\\app\\.cxx\\cmake\\release\\armeabi-v7a\\compile_commands.json"
+}

@@ -1,0 +1,69 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "D:\\YumikoProjects\\YumikoSerialSolib",
+      "sdkFolder": "D:\\tools\\sdk-tools-windows",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "D:\\YumikoProjects\\YumikoSerialSolib\\xrdserialport\\build\\intermediates",
+      "gradleModulePathName": ":xrdserialport",
+      "moduleRootFolder": "D:\\YumikoProjects\\YumikoSerialSolib\\xrdserialport",
+      "makeFile": "D:\\YumikoProjects\\YumikoSerialSolib\\xrdserialport\\src\\main\\cpp\\CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "compilerSettingsCacheFolder": "D:\\YumikoProjects\\YumikoSerialSolib\\.cxx",
+      "cxxFolder": "D:\\YumikoProjects\\YumikoSerialSolib\\xrdserialport\\.cxx",
+      "ndkFolder": "D:\\tools\\sdk-tools-windows\\ndk-bundle",
+      "ndkVersion": "18.1.5063045",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [],
+    "cFlagList": [],
+    "cppFlagsList": [
+      ""
+    ],
+    "variantName": "release",
+    "soFolder": "D:\\YumikoProjects\\YumikoSerialSolib\\xrdserialport\\build\\intermediates\\cmake\\release\\lib",
+    "objFolder": "D:\\YumikoProjects\\YumikoSerialSolib\\xrdserialport\\build\\intermediates\\cmake\\release\\obj",
+    "jsonFolder": "D:\\YumikoProjects\\YumikoSerialSolib\\xrdserialport\\.cxx\\cmake\\release",
+    "gradleBuildOutputFolder": "D:\\YumikoProjects\\YumikoSerialSolib\\xrdserialport\\.cxx\\cxx\\release",
+    "isDebuggableEnabled": false,
+    "validAbiList": [
+      "ARMEABI_V7A"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "ARMEABI_V7A",
+  "abiPlatformVersion": 21,
+  "cxxBuildFolder": "D:\\YumikoProjects\\YumikoSerialSolib\\xrdserialport\\.cxx\\cmake\\release\\armeabi-v7a",
+  "jsonFile": "D:\\YumikoProjects\\YumikoSerialSolib\\xrdserialport\\.cxx\\cmake\\release\\armeabi-v7a\\android_gradle_build.json",
+  "gradleBuildOutputFolder": "D:\\YumikoProjects\\YumikoSerialSolib\\xrdserialport\\.cxx\\cxx\\release\\armeabi-v7a",
+  "objFolder": "D:\\YumikoProjects\\YumikoSerialSolib\\xrdserialport\\build\\intermediates\\cmake\\release\\obj\\armeabi-v7a",
+  "buildCommandFile": "D:\\YumikoProjects\\YumikoSerialSolib\\xrdserialport\\.cxx\\cmake\\release\\armeabi-v7a\\build_command.txt",
+  "buildOutputFile": "D:\\YumikoProjects\\YumikoSerialSolib\\xrdserialport\\.cxx\\cmake\\release\\armeabi-v7a\\build_output.txt",
+  "modelOutputFile": "D:\\YumikoProjects\\YumikoSerialSolib\\xrdserialport\\.cxx\\cmake\\release\\armeabi-v7a\\build_model.json",
+  "cmake": {
+    "cmakeListsWrapperFile": "D:\\YumikoProjects\\YumikoSerialSolib\\xrdserialport\\.cxx\\cxx\\release\\armeabi-v7a\\CMakeLists.txt",
+    "toolchainWrapperFile": "D:\\YumikoProjects\\YumikoSerialSolib\\xrdserialport\\.cxx\\cxx\\release\\armeabi-v7a\\android_gradle_build.toolchain.cmake",
+    "buildGenerationStateFile": "D:\\YumikoProjects\\YumikoSerialSolib\\xrdserialport\\.cxx\\cxx\\release\\armeabi-v7a\\build_generation_state.json",
+    "cacheKeyFile": "D:\\YumikoProjects\\YumikoSerialSolib\\xrdserialport\\.cxx\\cxx\\release\\armeabi-v7a\\compiler_cache_key.json",
+    "compilerCacheUseFile": "D:\\YumikoProjects\\YumikoSerialSolib\\xrdserialport\\.cxx\\cxx\\release\\armeabi-v7a\\compiler_cache_use.json",
+    "compilerCacheWriteFile": "D:\\YumikoProjects\\YumikoSerialSolib\\xrdserialport\\.cxx\\cxx\\release\\armeabi-v7a\\compiler_cache_write.json",
+    "toolchainSettingsFromCacheFile": "D:\\YumikoProjects\\YumikoSerialSolib\\xrdserialport\\.cxx\\cxx\\release\\armeabi-v7a\\compiler_settings_cache.cmake",
+    "cmakeWrappingBaseFolder": "."
+  },
+  "jsonGenerationLoggingRecordFile": "D:\\YumikoProjects\\YumikoSerialSolib\\xrdserialport\\.cxx\\cmake\\release\\armeabi-v7a\\json_generation_record.json",
+  "compileCommandsJsonFile": "D:\\YumikoProjects\\YumikoSerialSolib\\xrdserialport\\.cxx\\cmake\\release\\armeabi-v7a\\compile_commands.json"
+}

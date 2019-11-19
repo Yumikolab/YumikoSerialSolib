@@ -1,0 +1,19 @@
+{
+  "buildFiles": [
+    "D:\\tools\\sdk-tools-windows\\ndk-bundle\\build\\cmake\\android.toolchain.cmake",
+    "E:\\NDK\\YumikoSerialSolib\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "D:\\tools\\sdk-tools-windows\\ndk-bundle\\build\\cmake\\platforms.cmake"
+  ],
+  "cleanCommands": [
+    "D:\\tools\\sdk-tools-windows\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"E:\\NDK\\YumikoSerialSolib\\app\\.cxx\\cmake\\release\\x86_64\" clean"
+  ],
+  "buildTargetsCommand": "D:\\tools\\sdk-tools-windows\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"E:\\NDK\\YumikoSerialSolib\\app\\.cxx\\cmake\\release\\x86_64\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "xrd-seriport-Release-x86_64": {
+      "artifactName": "xrd-seriport",
+      "buildCommand": "D:\\tools\\sdk-tools-windows\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"E:\\NDK\\YumikoSerialSolib\\app\\.cxx\\cmake\\release\\x86_64\" xrd-seriport",
+      "abi": "x86_64",
+      "output": "E:\\NDK\\YumikoSerialSolib\\app\\build\\intermediates\\cmake\\release\\obj\\x86_64\\libxrd-seriport.so"
+    }
+  }
+}

@@ -1,0 +1,4 @@
+# ninja log v5
+0	332	595836349	CMakeFiles/xrd-seriport.dir/SerialPort.c.o	abcb69b9751cadf2
+77	930	595836349	CMakeFiles/xrd-seriport.dir/native-lib.cpp.o	ccc6f2772e2b145c
+932	1301	595836350	D:/YumikoProjects/YumikoSerialSolib/xrdserialport/build/intermediates/cmake/debug/obj/armeabi-v7a/libxrd-seriport.so	c3f6530020781db9

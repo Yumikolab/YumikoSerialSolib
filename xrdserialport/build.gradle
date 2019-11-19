@@ -1,0 +1,69 @@
+apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
+group = 'com.github.Yumikolab'
+
+
+android {
+    compileSdkVersion 28
+    buildToolsVersion "29.0.0"
+
+
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles 'consumer-rules.pro'
+
+        externalNativeBuild {
+            cmake {
+
+                /**
+                 * Exceptions Support ：如果你想使用有关 C++ 异常处理的支持，就勾选它。勾选之后，Android Studio 会在 module 层的 build.gradle 文件中的 cppFlags 中添加 -fexcetions 标志。
+                 *
+                 * Runtime Type Information Support ：如果你想支持 RTTI，那么就勾选它。勾选之后，Android Studio 会在 module 层的 build.gradle 文件中的 cppFlags 中添加 -frtti 标志。
+                 *       cppFlags "-frtti -fexceptions"
+                 */
+                cppFlags ""
+            }
+        }
+
+        /**
+         *  Gradle 构建并打包某个特定的 ABI
+         */
+        ndk {
+            moduleName = "xrd-Yumiko"
+//            abiFilters 'x86', 'x86_64',  'armeabi-v7a',
+//                    'arm64-v8a'
+            abiFilters 'armeabi-v7a'
+
+            ldLibs "log"
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    externalNativeBuild {
+        cmake {
+            path "src/main/cpp/CMakeLists.txt"
+            version "3.10.2"
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation 'androidx.appcompat:appcompat:1.0.2'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
+}
